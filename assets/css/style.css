@@ -1,0 +1,37 @@
+
+.gif-title {
+  display: inline;
+}
+
+.floatImage {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  position: relative;
+  width: 100%;
+}
+
+button {
+  margin-left:2px;
+  margin-right:2px;
+}
+
+figure {
+  width: 25%;
+  float: right;
+  margin: 1em;
+}
+
+figcaption {
+  background-color: rgba(79, 44, 16, 0.6);
+  width: 100%;
+  margin-top: -2px;
+  float: right;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-family: 'Open Sans', sans;
+}
+
+body {
+  background-color: #544e4e;
+}

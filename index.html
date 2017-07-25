@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simpsons Powered By Giphy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css"></style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Simpsons Powered By Giphy</a>
+    </div>
+    <div id="buttons-view"></div>
+  </div>
+</nav>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-1">
+    <form id="gif-form">
+      <!--<label for="gif-input" class="label label-default">Add a Topic Mang</label>-->
+      <input type="text" placeholder="Add a Topic Mang" id="gif-input">
+      <!-- Button triggers new gif topic to be added -->
+      <input id="add-topic" type="submit" class="btn-success">
+    </form>
+    </div>
+    <div class="col-md-11">
+    <!-- Movies will get dumped here -->
+    <div id="gif-view"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
